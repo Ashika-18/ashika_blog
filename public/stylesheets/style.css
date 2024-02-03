@@ -6,3 +6,15 @@ body {
 a {
   color: #00B7FF;
 }
+
+/* ロード画面 */
+#load {
+  transition: all 1s;
+  background-color: #ddd;
+  position: fixed;
+  z-index: 9999;
+  inset: 0;
+  display: grid;
+  place-items: center;
+}
+
